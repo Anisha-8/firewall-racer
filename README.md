@@ -1,14 +1,14 @@
-# 🚗 Firewall Racer
+# Firewall Racer🚗
 
 A simple 2D car game written in **C** using the [raylib](https://www.raylib.com/) graphics library. Drive down a 3-lane road, dodge cyber threats, and collect security patches to protect your car.
 
-## 📸 Screenshots
+## Screenshots
 
 | Start menu | Gameplay | Game over |
 |:---:|:---:|:---:|
 | ![Start menu](menu.png) | ![Gameplay](gameplay.png) | ![Game over](gameover.png) |
 
-## 🎮 About the game
+## About the game
 
 You drive a blue car down a road with three lanes. Cyber threats fall from the top of the screen. Switch lanes to dodge them. Every threat you dodge gives you 1 point, and the game gets faster as your score grows. If you hit a threat, the game is over.
 
@@ -28,7 +28,7 @@ You drive a blue car down a road with three lanes. Cyber threats fall from the t
 - Speed increases every 5 points, up to a limit
 - Car and obstacles are drawn with simple shapes, so no image files are needed
 
-## 🕹️ Controls
+## Controls
 
 | Key | Action |
 |---|---|
@@ -40,13 +40,13 @@ You drive a blue car down a road with three lanes. Cyber threats fall from the t
 | `ESC` | Exit |
 
 
-## 🛠️ Requirements
+## Requirements
 
 - Windows 10 or 11
 - Visual Studio (2022 or later) with the **Desktop development with C++** workload
 - The **raylib** NuGet package (installed in the steps below)
 
-## ▶️ How to clone and run
+## How to clone and run
 
 ### 1. Clone the repository
 
@@ -84,6 +84,6 @@ The file ends in `.c`, so Visual Studio compiles it as C.
 
 The game window will open on the start menu. Press `ENTER` to play.
 
-## 👤 Author
+## Author
 
 [Anisha-8](https://github.com/Anisha-8)
