@@ -2,13 +2,11 @@
 
 A simple 2D car game written in **C** using the [raylib](https://www.raylib.com/) graphics library. Drive down a 3-lane road, dodge cyber threats, and collect security patches to protect your car.
 
-Made as a first-semester **Bachelor of Cyber Security** college project.
-
 ## 📸 Screenshots
 
 | Start menu | Gameplay | Game over |
 |:---:|:---:|:---:|
-| ![Start menu](menu.png) | ![Gameplay](screenshots/gameplay.png) | ![Game over](screenshots/gameover.png) |
+| ![Start menu](menu.png) | ![Gameplay](gameplay.png) | ![Game over](gameover.png) |
 
 ## 🎮 About the game
 
@@ -41,14 +39,6 @@ You drive a blue car down a road with three lanes. Cyber threats fall from the t
 | `Q` | Back to the menu |
 | `ESC` | Exit |
 
-## 📁 Project files
-
-```
-firewall-racer/
-├── firewall_racer_raylib.c   # the whole game
-├── screenshots/              # images used in this README
-└── README.md
-```
 
 ## 🛠️ Requirements
 
@@ -93,39 +83,6 @@ The file ends in `.c`, so Visual Studio compiles it as C.
 2. Press **Ctrl + F5** to build and run.
 
 The game window will open on the start menu. Press `ENTER` to play.
-
-## 🧩 How the code is organised
-
-| Function | What it does |
-|---|---|
-| `main()` | Opens the window and runs the game loop: update, then draw |
-| `initGame()` | Resets score, speed, shield and obstacles for a new game |
-| `handleInput()` | Reads `A` / `D` (or the arrow keys) and changes lane |
-| `updateObstacles()` | Slides the car, moves items down and spawns new ones |
-| `checkCollision()` | Handles hits, patches and the shield |
-| `drawScreen()` | Draws the road, obstacles, car and score bar |
-| `drawCar()` | Draws the car from simple shapes |
-| `showGameOver()` | Shows the game over screen with score and high score |
-
-## ⚙️ Easy things to change
-
-| To change | Edit |
-|---|---|
-| Starting speed | `START_SPEED` at the top of the file |
-| Maximum speed | `MAX_SPEED` |
-| Number of items on screen | `MAX_OBS` |
-| How often patches appear | `t = GetRandomValue(0, 5);` in `updateObstacles()` |
-| Points per dodge | `score++;` in `updateObstacles()` |
-| Colours | The colour names in `drawCar()` and `drawScreen()` |
-
-## ❓ Troubleshooting
-
-| Problem | Fix |
-|---|---|
-| `Cannot open include file 'raylib.h'` | Install the **raylib** NuGet package (step 4) |
-| Linker errors | Set the platform to **x64** |
-| `Program.cs` or a C# project appears | You created a C# project. Create a **C++** Console App instead |
-| The window closes straight away | Run with **Ctrl + F5**, not F5 |
 
 ## 👤 Author
 
