@@ -8,7 +8,7 @@ Made as a first-semester **Bachelor of Cyber Security** college project.
 
 | Start menu | Gameplay | Game over |
 |:---:|:---:|:---:|
-| ![Start menu](screenshots/menu.png) | ![Gameplay](screenshots/gameplay.png) | ![Game over](screenshots/gameover.png) |
+| ![Start menu](menu.png) | ![Gameplay](screenshots/gameplay.png) | ![Game over](screenshots/gameover.png) |
 
 ## 🎮 About the game
 
